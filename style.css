@@ -1,0 +1,155 @@
+body {
+    background-color: #D8E9A8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: Righteous;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    align-items: center;
+    background-color: black
+}
+
+nav ul li {
+    padding: 0 12px;
+
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.brand img {
+    width: 115px;
+}
+
+
+.container {
+
+
+    background-color: black;
+    color: aliceblue;
+    font-family: Righteous;
+    display: flex;
+    width: 85%;
+    margin: 15px auto;
+    border-radius: 15px;
+    padding: 20px;
+
+    font-weight: lighter;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bottom {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background-color: black;
+    bottom: 0;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+
+
+.icons {
+    margin: 10px 0px;
+}
+
+
+.icons i {
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+
+#myProgessBar {
+    margin-top: 10px;
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 25px;
+    margin-left: 130px;
+    margin-bottom: 12px;
+
+}
+
+
+.songitem {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    
+    color: aliceblue;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+
+}
+
+.songitem img {
+    width: 45px;
+    margin: 0 15px ;
+    border-radius: 30px;
+    border: 2px solid;
+
+}
+
+.timespan{
+    margin: 0 15px;
+ 
+}
+
+.timespan i{
+  
+    cursor: pointer;
+}
+
+
+.songitemcontainer{
+    margin-left: 70px;
+}
+
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.songinfo img{
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+} 
+
